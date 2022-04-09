@@ -1,8 +1,8 @@
 #include <stdlib.h>
 #include <stdio.h>
 #include <time.h>
-/*
- * main - select an integer at random and check if n=0 or n<0 or n>1 using the fun ction: printf to printout messages
+/**
+ * main - select an integer at random and check if n=0 or n<0 or n>1 and print usi   ng the function: printf to printout messages
  * Return: 0
  */
 int main(void)
