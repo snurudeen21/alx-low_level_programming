@@ -2,7 +2,7 @@
 #include <stdio.h>
 #include <time.h>
 /**
- * main - select an integer at random and check if n=0 or n<0 or n>1 and print usi   ng the function: printf to printout messages
+ * main - integer at random if and else print using printf: messages
  * Return: 0
  */
 int main(void)
