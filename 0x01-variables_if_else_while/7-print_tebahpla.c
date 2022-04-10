@@ -1,17 +1,16 @@
-include <stdio.h>
+#include <stdio.h>
 /**
- *main- print letters from z - a using putchar function
- *Return: 0
+ * main - print z - a using printchar function
+ * Return: 0
  */
-
 int main(void)
 {
-	char ch = 'z';
+	int c = 'z';
 
-	while (ch >= 'a')
+	while (z >= 'a')
 {
-	putchar (ch);
-	ch++;
+	putchar (c);
+	c--;
 }
 	putchar ('\n');
 	return (0);
