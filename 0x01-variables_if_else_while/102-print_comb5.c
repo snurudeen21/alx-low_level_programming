@@ -25,7 +25,7 @@ int main(void)
 	putchar (' ');
 	putchar (i + '0');
 	putchar (j + '0');
-	if ((i + j + k + l) != 35)
+	if (((k * 10 + l) + ((i * 10) + j) != 197))
 {
 	putchar ('0' - 4);
 	putchar (' ');
