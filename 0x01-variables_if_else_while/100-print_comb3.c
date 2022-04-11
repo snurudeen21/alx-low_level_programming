@@ -1,9 +1,10 @@
 #include <stdio.h>
 /**
- * main -combine and print numbers 0 - 9 using putchar but note 01 and 10 are same
+ * main -combine and print 0 - 9 using putchar but note 01 and 10 are same
  * Return: 0
  */
-int main(void){
+int main(void)
+{
 	int i = 0;
 	int j = 1;
 
