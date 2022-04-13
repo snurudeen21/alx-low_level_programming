@@ -8,7 +8,7 @@
 	return (write(1, &c, 1));
 	return (0);
 }
-	int main(void)
+	main(void)
 {
 	_putchar ('_');
 	_putchar ('p');
