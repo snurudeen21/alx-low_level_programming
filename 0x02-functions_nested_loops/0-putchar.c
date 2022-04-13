@@ -7,18 +7,19 @@
 	int main(void)
 {
 	int _putchar (char c);
-	_putchar ('_');
-	_putchar ('p');
-	_putchar ('u');
-	_putchar ('t');
-	_putchar ('c');
-	_putchar ('h');
-	_putchar ('a');
-	_putchar ('r');
-	_putchar ('\n');
+	int i;
+	char ch[i];
+	_putchar (ch[i]);
+	putchar ('\n');
 	return (0);
 }
 	int _putchar (char c)
 {
-	return (write(1, &c, 1));
+	char ch[9] = "_putchar";
+	int i = 0;
+	while (ch[i] != '\0')
+{
+	putchar (ch[i]);
+	i++;
+}
 }
