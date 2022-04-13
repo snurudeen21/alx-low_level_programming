@@ -1,4 +1,6 @@
 #include <unistd.h>
+#include <main.h>
+#include <stdio.h>
 /**
  * main - print _putchar using functions
  * Return: 0
@@ -14,7 +16,6 @@
 	_putchar ('h');
 	_putchar ('a');
 	_putchar ('r');
-	return (0);
 }
 	int _putchar (char c)
 {
