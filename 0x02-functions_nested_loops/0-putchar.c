@@ -1,21 +1,20 @@
-#include <unistd.h>
-#include <stdio.h>
+#include "main.h"
+
 /**
  * main - print _putchar using functions
  * Return: 0
  */
-	void _putchar (char c[])
-{
-	int i = 0;
-	while (i < 8)
-{
-	putchar (c[i]);
-	i++;
-}
-}
 	int main (void)
 {
-	_putchar (c);
-	putchar ('\n');
+	_putchar ('_');
+	_putchar ('p');
+	_putchar ('u');
+	_putchar ('t');
+	_putchar ('c');
+	_putchar ('h');
+	_putchar ('a');
+	_putchar ('r');
+	_putchar ('\n');
+
 	return (0);
-}
+{
