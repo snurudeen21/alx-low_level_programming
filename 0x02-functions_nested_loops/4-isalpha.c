@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * main - return 1 if char is upper or lower case else return 0
+ * _isalpha - return 1 if char is upper or lower case else return 0
  * @c: will hold the variables to be checked
  * Return: 0
  */
