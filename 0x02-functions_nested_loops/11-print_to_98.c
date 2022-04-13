@@ -5,7 +5,7 @@
 * @n: holds the starting number
 * Return: void
 */
-void print_to_98(void)
+void print_to_98(int n)
 {
 	if (n < 98)
 
