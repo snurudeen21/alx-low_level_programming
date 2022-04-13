@@ -3,7 +3,11 @@
  * main - print _putchar using functions
  * Return: 0
  */
-int main(void)
+	int _putchar (char c)
+{
+	return (write(1, &c, 1));
+
+	int main(void)
 {
 	int _putchar (char c);
 	_putchar ('_');
@@ -14,9 +18,5 @@ int main(void)
 	_putchar ('h');
 	_putchar ('a');
 	_putchar ('r');
-}
-	int _putchar (char c)
-{
-	return (write(1, &c, 1));
 	return (0);
-)
+}
