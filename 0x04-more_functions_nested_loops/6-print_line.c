@@ -3,7 +3,6 @@
 /**
  * print_line - prints underscore n times
  * @n: holds number of time to print _
- * @i: holds the counter
  */
 
 void print_line(int n)
