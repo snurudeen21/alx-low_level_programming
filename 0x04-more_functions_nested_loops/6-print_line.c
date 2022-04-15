@@ -1,24 +1,25 @@
 #include "main.h"
 
 /**
- * more_numbers - prints 10 times the numbers, from 0 to 14
+ * print_line - prints underscore n times
+ * @n: holds number of time to print _
+ * @i: holds the counter
  */
 
-void more_numbers(void)
+void print_line(int n)
 {
-	int c, x;
-
-
-	for (c = 0; c < 10; c++)
+	if (n <= 0)
 {
-	for (x = 0; x <= 14; x++)
-{
-	if (x > 9)
-{
-	_putchar((x / 10) + 48);
+	_putchar('\n');
 }
-	_putchar((x % 10) + 48);
+	else
+
+	int i;
+
+	for (i = 0, i < n, i++)
+{
+	_putchar('_');
 }
-	_putchar(10);
+	_putchar('\n');
 }
 }
