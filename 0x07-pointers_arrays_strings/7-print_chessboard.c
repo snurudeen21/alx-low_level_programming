@@ -25,6 +25,6 @@ void print_chessboard(char (*a)[8])
 	j++;
 }
 	_putchar ('\n'); /*print new line*/
-	++; /*add +1*/
+	i++; /*add +1*/
 }
 }
