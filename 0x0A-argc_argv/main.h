@@ -1,3 +1,3 @@
 int _putchar(char c);
 
-char isdigit (char *c);
+int check_num(char *str);

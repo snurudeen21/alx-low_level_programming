@@ -6,10 +6,13 @@
 /**
  * check_num - check - string there are digit
  * @str: array str
- * Return; Always 0 (Success)
+ *
+ * Return: On success 1.
+ * If not a number, 0 is returned.
  */
 
 int check_num(char *str)
+
 {
       /*Declaring variables*/
 
@@ -33,7 +36,9 @@ int check_num(char *str)
  * main - Print the name of the program
  * @argc: Count arguments
  * @argv: Arguments
- * return: Always 0 (Success)
+ *
+ * Return: On success 0.
+ * If not a number, 1 is returned.
  */
 
 int main(int argc, char *argv[])
@@ -52,10 +57,11 @@ int main(int argc, char *argv[])
 	while (count < argc) /*Goes through the whole array*/
 
 {
-	if(check_num(argv[count]))
+	if (check_num(argv[count]))
 
 {
 	str_to_int = atoi(argv[count]);
+
 	sum += str_to_int;
 }
 	else
