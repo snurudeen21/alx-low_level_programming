@@ -10,7 +10,7 @@
 int main(int argc, char *argv[])
 {
 
-	long double mul;
+	unsigned long long int mul;
 
 	int i, j;
 
@@ -50,7 +50,7 @@ int main(int argc, char *argv[])
 {
 	mul = atol(argv[1]) * atol(argv[2]);
 
-	printf("%.0Lf\n", mul);
+	printf("%lld\n", mul);
 	return (0);
 }
 }
