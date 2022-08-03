@@ -7,7 +7,7 @@
  *Return: modu of a & b.
  */
 
-int _modu(int a, int b)
+int _mod(int a, int b)
 {
     int modu;
     modu = a % b;
