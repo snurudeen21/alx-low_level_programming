@@ -9,7 +9,8 @@
 
 int _mod(int a, int b)
 {
-    int modu;
-    modu = a % b;
-    return (modu);
+	int modu;
+
+	modu = a % b;
+	return (modu);
 }

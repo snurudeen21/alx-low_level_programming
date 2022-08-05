@@ -9,7 +9,8 @@
 
 int _sub(int a, int b)
 {
-    int subt;
-    subt = a - b;
-    return (subt);
+	int subt;
+
+	subt = a - b;
+	return (subt);
 }

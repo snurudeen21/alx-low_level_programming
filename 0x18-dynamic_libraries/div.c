@@ -9,7 +9,8 @@
 
 int _div(int a, int b)
 {
-    int div;
-    div = a / b;
-    return (div);
+	int div;
+
+	div = a / b;
+	return (div);
 }
