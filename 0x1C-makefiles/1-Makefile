@@ -1,5 +1,6 @@
 CC=gcc
-SRC= school.c main.c
+
+SRC=school.c main.c
 
 all: a.out
 a.out: school.o
